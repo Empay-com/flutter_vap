@@ -32,7 +32,7 @@ apply plugin: 'kotlin-android'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.nell.flutter_vap'
+        namespace "com.nell.flutter_vap"
     }
 
     compileSdkVersion 30
